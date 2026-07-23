@@ -100,7 +100,7 @@ function Hero() {
         <div className="relative min-h-[660px] overflow-hidden rounded-[2rem] bg-gradient-to-br from-slate-900 via-slate-800 to-orange-900 p-6 shadow-2xl shadow-slate-950/20">
           <div className="absolute inset-x-0 bottom-0 h-48 bg-gradient-to-t from-orange-500/25 to-transparent" />
           <img
-            src="/images/hero-pescara-technician.png"
+            src="/images/home-hero.jpg"
             alt="Tecnico del carroattrezzi a Pescara con mezzo di soccorso"
             className="absolute bottom-0 right-[-1%] z-10 w-[98%] max-w-none object-contain lg:right-0"
           />
@@ -176,7 +176,7 @@ function Urgencies() {
                 }`}
               >
                 <img
-                  src={`/images/services/${service.slug}.webp`}
+                  src={`/images/services/${service.slug}.jpg`}
                   alt={`${service.title} a Pescara`}
                   className="h-44 w-full object-cover transition duration-500 group-hover:scale-105"
                 />
@@ -241,7 +241,7 @@ function Services() {
               className="group overflow-hidden rounded-[1.75rem] border border-slate-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-xl hover:shadow-orange-950/10"
             >
               <img
-                src={`/images/services/${service.slug}.webp`}
+                src={`/images/services/${service.slug}.jpg`}
                 alt={`${service.title} a Pescara`}
                 className="h-52 w-full object-cover transition duration-500 group-hover:scale-105"
               />
@@ -289,7 +289,7 @@ function Zones() {
               className="group overflow-hidden rounded-3xl border border-slate-200 bg-slate-50 shadow-sm transition hover:-translate-y-1 hover:bg-white hover:shadow-xl hover:shadow-orange-950/10"
             >
               <img
-                src={`/images/zones/${zone.slug}.webp`}
+                src={`/images/zones/${zone.slug}.jpg`}
                 alt={`${zone.title} - soccorso stradale locale`}
                 className="h-36 w-full object-cover transition duration-500 group-hover:scale-105"
               />

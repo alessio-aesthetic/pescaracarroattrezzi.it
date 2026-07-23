@@ -34,7 +34,7 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
         <Container>
           <div className="overflow-hidden rounded-[2rem] bg-white shadow-2xl shadow-orange-950/10 ring-1 ring-orange-100">
             <img
-              src={`/images/services/${service.slug}.webp`}
+              src={`/images/services/${service.slug}.jpg`}
               alt={`${service.title} a Pescara con carroattrezzi professionale`}
               className="h-[360px] w-full object-cover lg:h-[460px]"
             />

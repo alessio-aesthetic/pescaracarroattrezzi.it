@@ -70,7 +70,7 @@ export default function ZonePage({ params }: { params: { slug: string } }) {
               </div>
             </div>
             <img
-              src={`/images/zones/${zone.slug}.webp`}
+              src={`/images/zones/${zone.slug}.jpg`}
               alt={`Carroattrezzi a ${zone.name} in zona locale`}
               className="h-full min-h-[420px] w-full object-cover"
             />
