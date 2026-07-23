@@ -19,7 +19,7 @@ export function generateMetadata({
   const title = `${service.title} a Pescara`
   return {
     title: { absolute: title },
-    description: `${title}: assistenza rapida, recupero ordinato del veicolo e destinazione concordata prima dellâ€™intervento.`,
+    description: `${title}: assistenza rapida, recupero ordinato del veicolo e destinazione concordata prima dell’intervento.`,
     alternates: { canonical: `/servizi/${service.slug}/` },
   }
 }
@@ -92,7 +92,7 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
               ],
               [
                 'Trasporto verso la destinazione scelta',
-                'Il veicolo può essere portato in officina, carrozzeria, deposito o presso un indirizzo concordato prima dellâ€™intervento.',
+                'Il veicolo può essere portato in officina, carrozzeria, deposito o presso un indirizzo concordato prima dell’intervento.',
               ],
               [
                 'Comunicazione senza confusione',

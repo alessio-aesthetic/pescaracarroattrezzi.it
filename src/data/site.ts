@@ -87,8 +87,8 @@ export const zones = [
         "slug":  "silvi"
     },
     {
-        "title":  "Carroattrezzi a Città Santâ€™Angelo",
-        "name":  "Città Santâ€™Angelo",
+        "title":  "Carroattrezzi a Città Sant’Angelo",
+        "name":  "Città Sant’Angelo",
         "slug":  "cittã -santangelo"
     },
     {
@@ -121,14 +121,14 @@ export const zones = [
 export const faqs = [
     {
         "question":  "Quanto costa un carroattrezzi a ",
-        "answer":  "Il costo dipende da posizione, tipo di veicolo, condizioni del recupero, distanza e destinazione. Prima di partire raccogliamo i dati essenziali per darti unâ€™indicazione chiara."
+        "answer":  "Il costo dipende da posizione, tipo di veicolo, condizioni del recupero, distanza e destinazione. Prima di partire raccogliamo i dati essenziali per darti un’indicazione chiara."
     },
     {
         "question":  "Fate soccorso stradale a Pescara e provincia?",
         "answer":  "Sì, organizziamo interventi in città, nelle zone industriali, sulle strade provinciali e nei comuni vicini, valutando accessi e caratteristiche del mezzo."
     },
     {
-        "question":  "Posso scegliere dove portare lâ€™auto?",
+        "question":  "Posso scegliere dove portare l’auto?",
         "answer":  "Sì. Puoi indicare officina, carrozzeria, deposito, abitazione o un altro indirizzo concordato prima del recupero."
     },
     {

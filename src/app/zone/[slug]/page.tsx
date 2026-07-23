@@ -51,7 +51,7 @@ export default function ZonePage({ params }: { params: { slug: string } }) {
                   furgoni leggeri e trasporti verso officine o carrozzerie della
                   zona di Pescara. Anche quando il veicolo si trova in un
                   parcheggio privato, in una strada secondaria o vicino a
-                  unâ€™area produttiva, valutiamo gli accessi prima di muoverci.
+                  un’area produttiva, valutiamo gli accessi prima di muoverci.
                 </p>
                 <p>
                   A {zone.name} la rapidità conta, ma conta anche il modo in cui
@@ -98,7 +98,7 @@ export default function ZonePage({ params }: { params: { slug: string } }) {
               </p>
               <p>
                 Poi concordiamo la destinazione: officina, carrozzeria,
-                abitazione, deposito o altra sede. Questo rende lâ€™intervento più
+                abitazione, deposito o altra sede. Questo rende l’intervento più
                 ordinato e ti permette di sapere già dove finirà il veicolo.
               </p>
             </div>

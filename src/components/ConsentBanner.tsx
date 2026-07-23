@@ -16,7 +16,7 @@ export function ConsentBanner() {
       <p className="text-sm font-semibold">Privacy e cookie</p>
       <p className="mt-2 text-xs leading-5 text-slate-600">
         Usiamo solo strumenti tecnici necessari al funzionamento del sito e al
-        miglioramento dellâ€™esperienza. Puoi continuare accettando questo avviso.
+        miglioramento dell’esperienza. Puoi continuare accettando questo avviso.
       </p>
       <button
         type="button"
