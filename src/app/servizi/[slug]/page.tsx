@@ -1,4 +1,4 @@
-import { type Metadata } from 'next'
+﻿import { type Metadata } from 'next'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 
@@ -132,6 +132,7 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
     </main>
   )
 }
+
 
 
 

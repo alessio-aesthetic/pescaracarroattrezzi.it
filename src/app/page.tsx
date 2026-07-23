@@ -76,19 +76,19 @@ function Hero() {
             </h1>
             <div className="mt-7 space-y-5 text-lg leading-8 text-slate-700">
               <p>
-                Quando unâ€™auto si blocca, non hai bisogno di una risposta
+                Quando un’auto si blocca, non hai bisogno di una risposta
                 qualsiasi. Hai bisogno di qualcuno che capisca subito dove sei,
                 che ti dica cosa comunicare e che organizzi il recupero senza
-                farti perdere luciditÃ . Il servizio di <strong>carroattrezzi a Pescara</strong> Ã¨
+                farti perdere lucidità. Il servizio di <strong>carroattrezzi a Pescara</strong> è
                 pensato per gestire guasti, incidenti, veicoli in panne e
                 trasporti programmati con una procedura chiara.
               </p>
               <p>
                 Lavoriamo su Pescara, sulle strade di collegamento, nelle zone
                 industriali e nei comuni vicini. Prima di partire definiamo
-                posizione, mezzo, problema e destinazione: cosÃ¬ sai giÃ  cosa
-                succede e puoi scegliere con piÃ¹ serenitÃ  anche quando la
-                situazione Ã¨ urgente.
+                posizione, mezzo, problema e destinazione: così sai già cosa
+                succede e puoi scegliere con più serenità anche quando la
+                situazione è urgente.
               </p>
             </div>
           </div>
@@ -193,17 +193,17 @@ function Urgencies() {
           </div>
           <SectionTitle
             eyebrow="quando chiamare"
-            title="Un intervento serio si riconosce prima dellâ€™arrivo."
+            title="Un intervento serio si riconosce prima dell’arrivo."
           >
             <p>
-              La differenza non Ã¨ solo il carroattrezzi: Ã¨ il modo in cui viene
+              La differenza non è solo il carroattrezzi: è il modo in cui viene
               gestita la richiesta. Ti chiediamo le informazioni giuste, ti
-              aiutiamo a capire se il mezzo puÃ² restare dovâ€™Ã¨ e concordiamo dove
+              aiutiamo a capire se il mezzo può restare dov’è e concordiamo dove
               portarlo.
             </p>
             <p>
               Questo approccio evita confusione, riduce i tempi morti e rende
-              piÃ¹ semplice prendere decisioni anche quando il guasto arriva nel
+              più semplice prendere decisioni anche quando il guasto arriva nel
               momento peggiore.
             </p>
             <PhoneLink className="mt-4" />
@@ -221,13 +221,13 @@ function Services() {
         <div className="flex flex-col justify-between gap-8 lg:flex-row lg:items-end">
           <SectionTitle eyebrow="servizi" title="Soluzioni diverse per problemi diversi.">
             <p>
-              Unâ€™auto in panne, una moto da caricare, un furgone fermo o un
+              Un’auto in panne, una moto da caricare, un furgone fermo o un
               veicolo incidentato richiedono attenzioni diverse. Per questo ogni
               richiesta viene valutata in base a mezzo, posizione, accessi e
               destinazione.
             </p>
             <p>
-              Lâ€™obiettivo Ã¨ offrirti un servizio pulito: poche parole inutili,
+              L’obiettivo è offrirti un servizio pulito: poche parole inutili,
               informazioni chiare e un recupero eseguito con cura.
             </p>
           </SectionTitle>
@@ -270,15 +270,15 @@ function Zones() {
       <Container>
         <SectionTitle eyebrow="zone servite" title="Pescara e comuni vicini, con assistenza organizzata.">
           <p>
-            Interveniamo in cittÃ , nelle aree produttive, lungo le strade
+            Interveniamo in città, nelle aree produttive, lungo le strade
             provinciali e nei comuni vicini. In ogni zona il metodo resta lo
             stesso: posizione precisa, destinazione concordata e gestione
             ordinata del mezzo.
           </p>
           <p>
-            Se sei in un parcheggio privato, vicino a unâ€™officina, su una
+            Se sei in un parcheggio privato, vicino a un’officina, su una
             strada periferica o fuori paese, ti aiutiamo a comunicare i dati
-            utili per preparare lâ€™intervento nel modo piÃ¹ corretto.
+            utili per preparare l’intervento nel modo più corretto.
           </p>
         </SectionTitle>
         <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
@@ -311,7 +311,7 @@ function WhyAndPricing() {
         <div className="grid gap-8 lg:grid-cols-[1fr_1fr_0.9fr]">
           <div className="rounded-[2rem] bg-white p-8 text-slate-900">
             <h2 className="font-display text-3xl font-bold">
-              PerchÃ© scegliere noi
+              Perché scegliere noi
             </h2>
             <div className="mt-6 space-y-4 text-sm leading-6 text-slate-700">
               <p>
@@ -324,7 +324,7 @@ function WhyAndPricing() {
               </p>
               <p>
                 <strong>Gestione ordinata:</strong> valutiamo accessi, mezzo e
-                condizioni prima di muoverci, cosÃ¬ lâ€™intervento Ã¨ piÃ¹ preciso.
+                condizioni prima di muoverci, così l’intervento è più preciso.
               </p>
             </div>
           </div>
@@ -335,7 +335,7 @@ function WhyAndPricing() {
             <ol className="mt-6 space-y-5">
               {[
                 ['Capire', 'Raccogliamo posizione, problema e tipo di veicolo.'],
-                ['Concordare', 'Definiamo destinazione, accessi e prioritÃ .'],
+                ['Concordare', 'Definiamo destinazione, accessi e priorità.'],
                 ['Recuperare', 'Gestiamo carico, traino o trasporto con cura.'],
               ].map(([title, text], index) => (
                 <li key={title} className="flex gap-4">
@@ -355,7 +355,7 @@ function WhyAndPricing() {
             <p className="mt-5 text-sm leading-6 text-orange-50">
               Il costo dipende da distanza, tipo di mezzo, condizioni di
               recupero e destinazione. Prima di partire raccogliamo i dettagli
-              utili per darti unâ€™indicazione sensata e ridurre le sorprese.
+              utili per darti un’indicazione sensata e ridurre le sorprese.
             </p>
           <Link
             href={`tel:${site.tel}`}
@@ -374,10 +374,10 @@ function Faqs() {
   return (
     <section id="faq" className="bg-white py-24">
       <Container>
-        <SectionTitle eyebrow="domande frequenti" title="Risposte semplici quando il veicolo Ã¨ fermo.">
+        <SectionTitle eyebrow="domande frequenti" title="Risposte semplici quando il veicolo è fermo.">
           <p>
             Prima di scegliere un carroattrezzi vuoi capire tempi, destinazione,
-            prezzo e modalitÃ  di intervento. Qui trovi le risposte piÃ¹ utili per
+            prezzo e modalità di intervento. Qui trovi le risposte più utili per
             decidere rapidamente.
           </p>
         </SectionTitle>
@@ -415,7 +415,7 @@ function FinalCta() {
           <p className="mt-4 max-w-2xl text-slate-200">
             Chiama e comunica posizione, tipo di mezzo e destinazione. Ti
             aiutiamo a organizzare il recupero con una procedura chiara e un
-            tono pratico, senza complicare una situazione giÃ  scomoda.
+            tono pratico, senza complicare una situazione già scomoda.
           </p>
         </div>
         <div className="mt-8 flex flex-col gap-3 sm:flex-row lg:mt-0">
@@ -555,6 +555,7 @@ export default function Home() {
     </div>
   )
 }
+
 
 
 
