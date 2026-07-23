@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     default: site.title,
   },
   description: site.description,
+  icons: { icon: "/favicon.svg" },
   alternates: {
     canonical: '/',
   },
