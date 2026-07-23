@@ -1,4 +1,4 @@
-﻿import Link from 'next/link'
+import Link from 'next/link'
 
 import { Container } from '@/components/Container'
 import { site } from '@/data/site'
@@ -14,7 +14,7 @@ export default function NotFound() {
           Torna al servizio di carroattrezzi a Pescara
         </h1>
         <p className="mt-5 max-w-2xl text-slate-300">
-          La pagina richiesta non Ã¨ disponibile. Per assistenza stradale,
+          La pagina richiesta non è disponibile. Per assistenza stradale,
           recupero o traino auto puoi tornare alla home o chiamare direttamente.
         </p>
         <div className="mt-8 flex gap-3">

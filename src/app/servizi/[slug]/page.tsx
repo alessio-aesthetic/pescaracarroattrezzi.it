@@ -1,4 +1,4 @@
-﻿import { type Metadata } from 'next'
+import { type Metadata } from 'next'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 
@@ -52,7 +52,7 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
                   </p>
                   <p>{service.detail}</p>
                   <p>
-                    La cosa piÃ¹ importante Ã¨ non improvvisare. Se il veicolo Ã¨
+                    La cosa più importante è non improvvisare. Se il veicolo è
                     fermo, danneggiato o in una posizione scomoda, una
                     telefonata precisa permette di capire come procedere, dove
                     portare il mezzo e quali attenzioni servono durante il
@@ -66,7 +66,7 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
                 </p>
                 <p className="mt-4 text-sm leading-6 text-slate-200">
                   Comunica posizione, tipo di mezzo e destinazione. Ti aiutiamo
-                  a gestire il passaggio successivo con semplicitÃ .
+                  a gestire il passaggio successivo con semplicità.
                 </p>
                 <div className="mt-6 flex flex-col gap-3">
                   <Link
@@ -88,11 +88,11 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
             {[
               [
                 'Valutazione prima di muoversi',
-                'Capire accessi, spazio di manovra e condizioni del mezzo permette di preparare un recupero piÃ¹ preciso e meno stressante.',
+                'Capire accessi, spazio di manovra e condizioni del mezzo permette di preparare un recupero più preciso e meno stressante.',
               ],
               [
                 'Trasporto verso la destinazione scelta',
-                'Il veicolo puÃ² essere portato in officina, carrozzeria, deposito o presso un indirizzo concordato prima dellâ€™intervento.',
+                'Il veicolo può essere portato in officina, carrozzeria, deposito o presso un indirizzo concordato prima dellâ€™intervento.',
               ],
               [
                 'Comunicazione senza confusione',
@@ -112,16 +112,16 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
           </div>
           <div className="mt-12 rounded-[2rem] bg-[#1F2937] p-8 text-white">
             <h2 className="font-display text-3xl font-bold">
-              Quando Ã¨ meglio chiamare subito
+              Quando è meglio chiamare subito
             </h2>
             <div className="mt-5 grid gap-5 text-sm leading-6 text-slate-200 md:grid-cols-2">
               <p>
                 Se il mezzo non parte, perde liquidi, ha spie accese o si trova
-                in un punto trafficato, Ã¨ piÃ¹ prudente chiedere assistenza
+                in un punto trafficato, è più prudente chiedere assistenza
                 prima di muoverlo.
               </p>
               <p>
-                Anche un guasto apparentemente piccolo puÃ² peggiorare se
+                Anche un guasto apparentemente piccolo può peggiorare se
                 continui a guidare. Una valutazione rapida aiuta a scegliere tra
                 supporto sul posto, traino o trasporto.
               </p>

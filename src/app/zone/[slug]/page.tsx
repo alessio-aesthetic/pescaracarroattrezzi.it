@@ -1,4 +1,4 @@
-﻿import { type Metadata } from 'next'
+import { type Metadata } from 'next'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 
@@ -41,7 +41,7 @@ export default function ZonePage({ params }: { params: { slug: string } }) {
               </h1>
               <div className="mt-6 space-y-5 text-lg leading-8 text-slate-700">
                 <p>
-                  Il servizio di <strong>carroattrezzi a {zone.name}</strong> Ã¨
+                  Il servizio di <strong>carroattrezzi a {zone.name}</strong> è
                   pensato per chi ha un mezzo fermo e vuole una gestione
                   semplice: chiamata chiara, destinazione concordata e recupero
                   organizzato con attenzione.
@@ -54,7 +54,7 @@ export default function ZonePage({ params }: { params: { slug: string } }) {
                   unâ€™area produttiva, valutiamo gli accessi prima di muoverci.
                 </p>
                 <p>
-                  A {zone.name} la rapiditÃ  conta, ma conta anche il modo in cui
+                  A {zone.name} la rapidità conta, ma conta anche il modo in cui
                   viene eseguito il servizio. Ti aiutiamo a comunicare le
                   informazioni giuste e a decidere dove portare il mezzo senza
                   pressioni inutili.
@@ -86,20 +86,20 @@ export default function ZonePage({ params }: { params: { slug: string } }) {
                 come lavoriamo
               </p>
               <h2 className="mt-4 font-display text-4xl font-bold text-slate-950">
-                Recupero chiaro, anche fuori dal centro cittÃ .
+                Recupero chiaro, anche fuori dal centro città.
               </h2>
             </div>
             <div className="space-y-5 text-lg leading-8 text-slate-700">
               <p>
-                Se il mezzo Ã¨ fermo in un punto poco visibile, vicino a una
+                Se il mezzo è fermo in un punto poco visibile, vicino a una
                 curva, in una zona industriale o in una strada di campagna, la
-                posizione precisa Ã¨ fondamentale. Ti guidiamo nella raccolta dei
+                posizione precisa è fondamentale. Ti guidiamo nella raccolta dei
                 dati utili per evitare passaggi confusi.
               </p>
               <p>
                 Poi concordiamo la destinazione: officina, carrozzeria,
-                abitazione, deposito o altra sede. Questo rende lâ€™intervento piÃ¹
-                ordinato e ti permette di sapere giÃ  dove finirÃ  il veicolo.
+                abitazione, deposito o altra sede. Questo rende lâ€™intervento più
+                ordinato e ti permette di sapere già dove finirà il veicolo.
               </p>
             </div>
           </div>

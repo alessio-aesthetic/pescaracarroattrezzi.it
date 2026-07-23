@@ -1,6 +1,6 @@
-﻿export const site = {
+export const site = {
     "domain":  "pescaracarroattrezzi.it",
-    "description":  "Carroattrezzi a Pescara e soccorso stradale a Pescara: traino, recupero auto, assistenza moto e interventi rapidi in cittÃ  e provincia.",
+    "description":  "Carroattrezzi a Pescara e soccorso stradale a Pescara: traino, recupero auto, assistenza moto e interventi rapidi in città e provincia.",
     "tel":  "+390851804196",
     "city":  "Pescara",
     "name":  "Carroattrezzi Pescara",
@@ -12,46 +12,46 @@
 
 export const services = [
     {
-        "detail":  "Quando una vettura si ferma, ogni minuto puÃ² diventare complicato. Per questo definiamo prima il punto in cui ti trovi, le condizioni del mezzo e la destinazione desiderata. Il servizio di soccorso stradale 24 ore a Pescara viene gestito con comunicazioni chiare, senza promesse vaghe e senza lasciarti solo a ricostruire la situazione.",
+        "detail":  "Quando una vettura si ferma, ogni minuto può diventare complicato. Per questo definiamo prima il punto in cui ti trovi, le condizioni del mezzo e la destinazione desiderata. Il servizio di soccorso stradale 24 ore a Pescara viene gestito con comunicazioni chiare, senza promesse vaghe e senza lasciarti solo a ricostruire la situazione.",
         "title":  "Soccorso stradale 24 ore",
         "slug":  "soccorso-stradale-24-ore",
-        "text":  "Il servizio di soccorso stradale 24 ore a Pescara nasce per aiutarti quando il veicolo non puÃ² proseguire. Raccogliamo le informazioni utili, valutiamo la posizione e organizziamo il recupero con attenzione a mezzo, accessi e destinazione."
+        "text":  "Il servizio di soccorso stradale 24 ore a Pescara nasce per aiutarti quando il veicolo non può proseguire. Raccogliamo le informazioni utili, valutiamo la posizione e organizziamo il recupero con attenzione a mezzo, accessi e destinazione."
     },
     {
-        "detail":  "Quando una vettura si ferma, ogni minuto puÃ² diventare complicato. Per questo definiamo prima il punto in cui ti trovi, le condizioni del mezzo e la destinazione desiderata. Il servizio di traino auto a Pescara viene gestito con comunicazioni chiare, senza promesse vaghe e senza lasciarti solo a ricostruire la situazione.",
+        "detail":  "Quando una vettura si ferma, ogni minuto può diventare complicato. Per questo definiamo prima il punto in cui ti trovi, le condizioni del mezzo e la destinazione desiderata. Il servizio di traino auto a Pescara viene gestito con comunicazioni chiare, senza promesse vaghe e senza lasciarti solo a ricostruire la situazione.",
         "title":  "Traino auto",
         "slug":  "traino-auto",
-        "text":  "Il servizio di traino auto a Pescara nasce per aiutarti quando il veicolo non puÃ² proseguire. Raccogliamo le informazioni utili, valutiamo la posizione e organizziamo il recupero con attenzione a mezzo, accessi e destinazione."
+        "text":  "Il servizio di traino auto a Pescara nasce per aiutarti quando il veicolo non può proseguire. Raccogliamo le informazioni utili, valutiamo la posizione e organizziamo il recupero con attenzione a mezzo, accessi e destinazione."
     },
     {
-        "detail":  "Quando una vettura si ferma, ogni minuto puÃ² diventare complicato. Per questo definiamo prima il punto in cui ti trovi, le condizioni del mezzo e la destinazione desiderata. Il servizio di recupero auto incidentata a Pescara viene gestito con comunicazioni chiare, senza promesse vaghe e senza lasciarti solo a ricostruire la situazione.",
+        "detail":  "Quando una vettura si ferma, ogni minuto può diventare complicato. Per questo definiamo prima il punto in cui ti trovi, le condizioni del mezzo e la destinazione desiderata. Il servizio di recupero auto incidentata a Pescara viene gestito con comunicazioni chiare, senza promesse vaghe e senza lasciarti solo a ricostruire la situazione.",
         "title":  "Recupero auto incidentata",
         "slug":  "recupero-auto-incidentata",
-        "text":  "Il servizio di recupero auto incidentata a Pescara nasce per aiutarti quando il veicolo non puÃ² proseguire. Raccogliamo le informazioni utili, valutiamo la posizione e organizziamo il recupero con attenzione a mezzo, accessi e destinazione."
+        "text":  "Il servizio di recupero auto incidentata a Pescara nasce per aiutarti quando il veicolo non può proseguire. Raccogliamo le informazioni utili, valutiamo la posizione e organizziamo il recupero con attenzione a mezzo, accessi e destinazione."
     },
     {
-        "detail":  "Quando una vettura si ferma, ogni minuto puÃ² diventare complicato. Per questo definiamo prima il punto in cui ti trovi, le condizioni del mezzo e la destinazione desiderata. Il servizio di carroattrezzi moto a Pescara viene gestito con comunicazioni chiare, senza promesse vaghe e senza lasciarti solo a ricostruire la situazione.",
+        "detail":  "Quando una vettura si ferma, ogni minuto può diventare complicato. Per questo definiamo prima il punto in cui ti trovi, le condizioni del mezzo e la destinazione desiderata. Il servizio di carroattrezzi moto a Pescara viene gestito con comunicazioni chiare, senza promesse vaghe e senza lasciarti solo a ricostruire la situazione.",
         "title":  "Carroattrezzi moto",
         "slug":  "carroattrezzi-moto",
-        "text":  "Il servizio di carroattrezzi moto a Pescara nasce per aiutarti quando il veicolo non puÃ² proseguire. Raccogliamo le informazioni utili, valutiamo la posizione e organizziamo il recupero con attenzione a mezzo, accessi e destinazione."
+        "text":  "Il servizio di carroattrezzi moto a Pescara nasce per aiutarti quando il veicolo non può proseguire. Raccogliamo le informazioni utili, valutiamo la posizione e organizziamo il recupero con attenzione a mezzo, accessi e destinazione."
     },
     {
-        "detail":  "Quando una vettura si ferma, ogni minuto puÃ² diventare complicato. Per questo definiamo prima il punto in cui ti trovi, le condizioni del mezzo e la destinazione desiderata. Il servizio di assistenza batteria scarica a Pescara viene gestito con comunicazioni chiare, senza promesse vaghe e senza lasciarti solo a ricostruire la situazione.",
+        "detail":  "Quando una vettura si ferma, ogni minuto può diventare complicato. Per questo definiamo prima il punto in cui ti trovi, le condizioni del mezzo e la destinazione desiderata. Il servizio di assistenza batteria scarica a Pescara viene gestito con comunicazioni chiare, senza promesse vaghe e senza lasciarti solo a ricostruire la situazione.",
         "title":  "Assistenza batteria scarica",
         "slug":  "assistenza-batteria-scarica",
-        "text":  "Il servizio di assistenza batteria scarica a Pescara nasce per aiutarti quando il veicolo non puÃ² proseguire. Raccogliamo le informazioni utili, valutiamo la posizione e organizziamo il recupero con attenzione a mezzo, accessi e destinazione."
+        "text":  "Il servizio di assistenza batteria scarica a Pescara nasce per aiutarti quando il veicolo non può proseguire. Raccogliamo le informazioni utili, valutiamo la posizione e organizziamo il recupero con attenzione a mezzo, accessi e destinazione."
     },
     {
-        "detail":  "Quando una vettura si ferma, ogni minuto puÃ² diventare complicato. Per questo definiamo prima il punto in cui ti trovi, le condizioni del mezzo e la destinazione desiderata. Il servizio di recupero auto in panne a Pescara viene gestito con comunicazioni chiare, senza promesse vaghe e senza lasciarti solo a ricostruire la situazione.",
+        "detail":  "Quando una vettura si ferma, ogni minuto può diventare complicato. Per questo definiamo prima il punto in cui ti trovi, le condizioni del mezzo e la destinazione desiderata. Il servizio di recupero auto in panne a Pescara viene gestito con comunicazioni chiare, senza promesse vaghe e senza lasciarti solo a ricostruire la situazione.",
         "title":  "Recupero auto in panne",
         "slug":  "recupero-auto-in-panne",
-        "text":  "Il servizio di recupero auto in panne a Pescara nasce per aiutarti quando il veicolo non puÃ² proseguire. Raccogliamo le informazioni utili, valutiamo la posizione e organizziamo il recupero con attenzione a mezzo, accessi e destinazione."
+        "text":  "Il servizio di recupero auto in panne a Pescara nasce per aiutarti quando il veicolo non può proseguire. Raccogliamo le informazioni utili, valutiamo la posizione e organizziamo il recupero con attenzione a mezzo, accessi e destinazione."
     },
     {
-        "detail":  "Quando una vettura si ferma, ogni minuto puÃ² diventare complicato. Per questo definiamo prima il punto in cui ti trovi, le condizioni del mezzo e la destinazione desiderata. Il servizio di soccorso in autostrada a Pescara viene gestito con comunicazioni chiare, senza promesse vaghe e senza lasciarti solo a ricostruire la situazione.",
+        "detail":  "Quando una vettura si ferma, ogni minuto può diventare complicato. Per questo definiamo prima il punto in cui ti trovi, le condizioni del mezzo e la destinazione desiderata. Il servizio di soccorso in autostrada a Pescara viene gestito con comunicazioni chiare, senza promesse vaghe e senza lasciarti solo a ricostruire la situazione.",
         "title":  "Soccorso in autostrada",
         "slug":  "soccorso-in-autostrada",
-        "text":  "Il servizio di soccorso in autostrada a Pescara nasce per aiutarti quando il veicolo non puÃ² proseguire. Raccogliamo le informazioni utili, valutiamo la posizione e organizziamo il recupero con attenzione a mezzo, accessi e destinazione."
+        "text":  "Il servizio di soccorso in autostrada a Pescara nasce per aiutarti quando il veicolo non può proseguire. Raccogliamo le informazioni utili, valutiamo la posizione e organizziamo il recupero con attenzione a mezzo, accessi e destinazione."
     }
 ] as const
 
@@ -87,8 +87,8 @@ export const zones = [
         "slug":  "silvi"
     },
     {
-        "title":  "Carroattrezzi a CittÃ  Santâ€™Angelo",
-        "name":  "CittÃ  Santâ€™Angelo",
+        "title":  "Carroattrezzi a Città Santâ€™Angelo",
+        "name":  "Città Santâ€™Angelo",
         "slug":  "cittã -santangelo"
     },
     {
@@ -125,23 +125,23 @@ export const faqs = [
     },
     {
         "question":  "Fate soccorso stradale a Pescara e provincia?",
-        "answer":  "SÃ¬, organizziamo interventi in cittÃ , nelle zone industriali, sulle strade provinciali e nei comuni vicini, valutando accessi e caratteristiche del mezzo."
+        "answer":  "Sì, organizziamo interventi in città, nelle zone industriali, sulle strade provinciali e nei comuni vicini, valutando accessi e caratteristiche del mezzo."
     },
     {
         "question":  "Posso scegliere dove portare lâ€™auto?",
-        "answer":  "SÃ¬. Puoi indicare officina, carrozzeria, deposito, abitazione o un altro indirizzo concordato prima del recupero."
+        "answer":  "Sì. Puoi indicare officina, carrozzeria, deposito, abitazione o un altro indirizzo concordato prima del recupero."
     },
     {
         "question":  "Intervenite anche per moto e furgoni?",
-        "answer":  "SÃ¬, valutiamo auto, moto, scooter e furgoni leggeri. Durante la richiesta chiediamo peso, dimensioni e posizione per preparare il mezzo adatto."
+        "answer":  "Sì, valutiamo auto, moto, scooter e furgoni leggeri. Durante la richiesta chiediamo peso, dimensioni e posizione per preparare il mezzo adatto."
     },
     {
         "question":  "Cosa devo comunicare quando chiamo?",
-        "answer":  "Servono posizione, tipo di veicolo, problema riscontrato, eventuali danni e destinazione. Queste informazioni aiutano a organizzare il soccorso in modo piÃ¹ preciso."
+        "answer":  "Servono posizione, tipo di veicolo, problema riscontrato, eventuali danni e destinazione. Queste informazioni aiutano a organizzare il soccorso in modo più preciso."
     },
     {
-        "question":  "Il servizio Ã¨ attivo anche di notte?",
-        "answer":  "SÃ¬, il servizio di soccorso stradale Ã¨ organizzato per richieste urgenti durante tutta la giornata, compresi orari serali, notturni e festivi."
+        "question":  "Il servizio è attivo anche di notte?",
+        "answer":  "Sì, il servizio di soccorso stradale è organizzato per richieste urgenti durante tutta la giornata, compresi orari serali, notturni e festivi."
     }
 ] as const
 

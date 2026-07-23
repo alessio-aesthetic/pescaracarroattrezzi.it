@@ -1,4 +1,4 @@
-﻿import Link from 'next/link'
+import Link from 'next/link'
 
 import { Container } from '@/components/Container'
 import { ConsentBanner } from '@/components/ConsentBanner'
@@ -79,16 +79,16 @@ function Hero() {
                 Quando unâ€™auto si blocca, non hai bisogno di una risposta
                 qualsiasi. Hai bisogno di qualcuno che capisca subito dove sei,
                 che ti dica cosa comunicare e che organizzi il recupero senza
-                farti perdere luciditÃ . Il servizio di <strong>carroattrezzi a Pescara</strong> Ã¨
+                farti perdere lucidità. Il servizio di <strong>carroattrezzi a Pescara</strong> è
                 pensato per gestire guasti, incidenti, veicoli in panne e
                 trasporti programmati con una procedura chiara.
               </p>
               <p>
                 Lavoriamo su Pescara, sulle strade di collegamento, nelle zone
                 industriali e nei comuni vicini. Prima di partire definiamo
-                posizione, mezzo, problema e destinazione: cosÃ¬ sai giÃ  cosa
-                succede e puoi scegliere con piÃ¹ serenitÃ  anche quando la
-                situazione Ã¨ urgente.
+                posizione, mezzo, problema e destinazione: così sai già cosa
+                succede e puoi scegliere con più serenità anche quando la
+                situazione è urgente.
               </p>
             </div>
           </div>
@@ -196,14 +196,14 @@ function Urgencies() {
             title="Un intervento serio si riconosce prima dellâ€™arrivo."
           >
             <p>
-              La differenza non Ã¨ solo il carroattrezzi: Ã¨ il modo in cui viene
+              La differenza non è solo il carroattrezzi: è il modo in cui viene
               gestita la richiesta. Ti chiediamo le informazioni giuste, ti
-              aiutiamo a capire se il mezzo puÃ² restare dovâ€™Ã¨ e concordiamo dove
+              aiutiamo a capire se il mezzo può restare dovâ€™è e concordiamo dove
               portarlo.
             </p>
             <p>
               Questo approccio evita confusione, riduce i tempi morti e rende
-              piÃ¹ semplice prendere decisioni anche quando il guasto arriva nel
+              più semplice prendere decisioni anche quando il guasto arriva nel
               momento peggiore.
             </p>
             <PhoneLink className="mt-4" />
@@ -227,7 +227,7 @@ function Services() {
               destinazione.
             </p>
             <p>
-              Lâ€™obiettivo Ã¨ offrirti un servizio pulito: poche parole inutili,
+              Lâ€™obiettivo è offrirti un servizio pulito: poche parole inutili,
               informazioni chiare e un recupero eseguito con cura.
             </p>
           </SectionTitle>
@@ -270,7 +270,7 @@ function Zones() {
       <Container>
         <SectionTitle eyebrow="zone servite" title="Pescara e comuni vicini, con assistenza organizzata.">
           <p>
-            Interveniamo in cittÃ , nelle aree produttive, lungo le strade
+            Interveniamo in città, nelle aree produttive, lungo le strade
             provinciali e nei comuni vicini. In ogni zona il metodo resta lo
             stesso: posizione precisa, destinazione concordata e gestione
             ordinata del mezzo.
@@ -278,7 +278,7 @@ function Zones() {
           <p>
             Se sei in un parcheggio privato, vicino a unâ€™officina, su una
             strada periferica o fuori paese, ti aiutiamo a comunicare i dati
-            utili per preparare lâ€™intervento nel modo piÃ¹ corretto.
+            utili per preparare lâ€™intervento nel modo più corretto.
           </p>
         </SectionTitle>
         <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
@@ -311,7 +311,7 @@ function WhyAndPricing() {
         <div className="grid gap-8 lg:grid-cols-[1fr_1fr_0.9fr]">
           <div className="rounded-[2rem] bg-white p-8 text-slate-900">
             <h2 className="font-display text-3xl font-bold">
-              PerchÃ© scegliere noi
+              Perché scegliere noi
             </h2>
             <div className="mt-6 space-y-4 text-sm leading-6 text-slate-700">
               <p>
@@ -324,7 +324,7 @@ function WhyAndPricing() {
               </p>
               <p>
                 <strong>Gestione ordinata:</strong> valutiamo accessi, mezzo e
-                condizioni prima di muoverci, cosÃ¬ lâ€™intervento Ã¨ piÃ¹ preciso.
+                condizioni prima di muoverci, così lâ€™intervento è più preciso.
               </p>
             </div>
           </div>
@@ -335,7 +335,7 @@ function WhyAndPricing() {
             <ol className="mt-6 space-y-5">
               {[
                 ['Capire', 'Raccogliamo posizione, problema e tipo di veicolo.'],
-                ['Concordare', 'Definiamo destinazione, accessi e prioritÃ .'],
+                ['Concordare', 'Definiamo destinazione, accessi e priorità.'],
                 ['Recuperare', 'Gestiamo carico, traino o trasporto con cura.'],
               ].map(([title, text], index) => (
                 <li key={title} className="flex gap-4">
@@ -374,10 +374,10 @@ function Faqs() {
   return (
     <section id="faq" className="bg-white py-24">
       <Container>
-        <SectionTitle eyebrow="domande frequenti" title="Risposte semplici quando il veicolo Ã¨ fermo.">
+        <SectionTitle eyebrow="domande frequenti" title="Risposte semplici quando il veicolo è fermo.">
           <p>
             Prima di scegliere un carroattrezzi vuoi capire tempi, destinazione,
-            prezzo e modalitÃ  di intervento. Qui trovi le risposte piÃ¹ utili per
+            prezzo e modalità di intervento. Qui trovi le risposte più utili per
             decidere rapidamente.
           </p>
         </SectionTitle>
@@ -415,7 +415,7 @@ function FinalCta() {
           <p className="mt-4 max-w-2xl text-slate-200">
             Chiama e comunica posizione, tipo di mezzo e destinazione. Ti
             aiutiamo a organizzare il recupero con una procedura chiara e un
-            tono pratico, senza complicare una situazione giÃ  scomoda.
+            tono pratico, senza complicare una situazione già scomoda.
           </p>
         </div>
         <div className="mt-8 flex flex-col gap-3 sm:flex-row lg:mt-0">
@@ -479,7 +479,7 @@ function Footer() {
           </div>
         </div>
         <p className="mt-10 text-sm text-slate-500">
-          Â© 2026 {site.domain}. Tutti i diritti riservati.
+          © 2026 {site.domain}. Tutti i diritti riservati.
         </p>
       </Container>
     </footer>
