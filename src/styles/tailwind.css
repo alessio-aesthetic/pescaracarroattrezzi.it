@@ -166,3 +166,12 @@
   [data-template] main > section:not(:first-child) > div > div:first-child h2 { margin-inline: auto; }
   [data-template] main > section:first-child > div > div:first-child { text-align: center; align-items: center; }
 }
+/* Keep the editorial layouts readable even when a demo uses a dark band. */
+[data-template] main > section[class*="text-white"] h1,
+[data-template] main > section[class*="text-white"] h2,
+[data-template] main > section[class*="text-white"] h3,
+[data-template] main > section[class*="text-white"] p,
+[data-template] main > section[class*="text-white"] a,
+[data-template] main > section[class*="text-white"] summary { color: #fff; }
+[data-template] main > section[class*="text-white"] p { color: rgb(226 232 240); }
+[data-template] main > section[class*="text-white"] a.rounded-full { color: #fff; }
