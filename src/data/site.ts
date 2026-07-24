@@ -90,7 +90,7 @@ export const zones = [
     {
         "title":  "Carroattrezzi a Città Sant’Angelo",
         "name":  "Città Sant’Angelo",
-        "slug":  "cittÃ£ -santangelo"
+        "slug":  "citta-santangelo"
     },
     {
         "title":  "Carroattrezzi a Loreto Aprutino",
