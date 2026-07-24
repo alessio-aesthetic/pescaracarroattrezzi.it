@@ -1,4 +1,4 @@
-﻿export const site = {
+export const site = {
     "domain":  "pescaracarroattrezzi.it",
     "template":  "pocket",
     "description":  "Carroattrezzi a Pescara e soccorso stradale a Pescara: traino, recupero auto, assistenza moto e interventi rapidi in città e provincia.",
