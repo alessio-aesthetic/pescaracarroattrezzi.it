@@ -222,6 +222,47 @@
   color: #e2e8f0 !important;
 }
 
+/* Accessibility floor: no muted utility can make live copy disappear. */
+[data-template] main p,
+[data-template] main li,
+[data-template] main summary {
+  color: #334155;
+}
+[data-template] main h1,
+[data-template] main h2,
+[data-template] main h3,
+[data-template] main h4 {
+  color: #0f172a;
+}
+[data-template] main section[class*="text-white"] p,
+[data-template] main section[class*="text-white"] li,
+[data-template] main section[class*="text-white"] summary,
+[data-template] main section[class*="bg-[#1F2937"] p,
+[data-template] main section[class*="bg-[#132844"] p,
+[data-template] main section[class*="bg-slate-950"] p,
+[data-template] main section[class*="bg-[#0f172a"] p,
+[data-template] main section[class*="bg-[#111c35"] p {
+  color: #e2e8f0 !important;
+}
+[data-template] main section[class*="text-white"] h1,
+[data-template] main section[class*="text-white"] h2,
+[data-template] main section[class*="text-white"] h3,
+[data-template] main section[class*="bg-[#1F2937"] h1,
+[data-template] main section[class*="bg-[#1F2937"] h2,
+[data-template] main section[class*="bg-[#1F2937"] h3,
+[data-template] main section[class*="bg-[#132844"] h1,
+[data-template] main section[class*="bg-[#132844"] h2,
+[data-template] main section[class*="bg-[#132844"] h3,
+[data-template] main section[class*="bg-slate-950"] h1,
+[data-template] main section[class*="bg-slate-950"] h2,
+[data-template] main section[class*="bg-slate-950"] h3 {
+  color: #ffffff !important;
+}
+[data-template] main a[class*="bg-white"],
+[data-template] main button[class*="bg-white"] {
+  color: #0f172a !important;
+}
+
 @media (max-width: 1023px) {
   [data-template='studio'] main > section:first-child { text-align: left; }
   [data-template='studio'] main > section:first-child > div > div { margin-inline: 0; }
