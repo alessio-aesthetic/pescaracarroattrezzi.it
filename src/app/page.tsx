@@ -1,5 +1,5 @@
-import TailAwesomeHome from '@/components/TailAwesomeHome'
+import ProprietaryHome from '@/components/ProprietaryHome'
 
 export default function Home() {
-  return <TailAwesomeHome />
+  return <ProprietaryHome />
 }
