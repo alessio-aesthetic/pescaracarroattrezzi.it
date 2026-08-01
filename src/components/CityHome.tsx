@@ -16,7 +16,7 @@ const themes: Record<string, Theme> = {
 }
 
 const heroImages: Record<string, string> = {
-  Catania: '/images/hero-catania-original.png', Livorno: '/images/hero-livorno.jpg', Napoli: '/images/hero-napoli.jpg', Padova: '/images/hero-padova.jpg', Prato: '/images/hero-prato.jpg', Salerno: '/images/hero-salerno.jpg', Pescara: '/images/hero-pescara.jpg', Latina: '/images/hero-latina.jpg', Trieste: '/images/hero-trieste.jpg',
+  Catania: '/images/hero-catania-original.png', Livorno: '/images/hero-livorno-original.png', Napoli: '/images/hero-napoli-original.png', Padova: '/images/hero-padova-original.png', Prato: '/images/hero-prato-original.png', Salerno: '/images/hero-salerno-original.png', Pescara: '/images/hero-pescara-original.png', Latina: '/images/hero-latina-original.png', Trieste: '/images/hero-trieste-original.png',
 }
 const logos: Record<string, string> = {
   Catania: '/images/logo-catania.png', Livorno: '/images/logo-livorno.png', Napoli: '/images/logo-napoli.png', Padova: '/images/logo-padova.png', Prato: '/images/logo-prato.png', Salerno: '/images/logo-salerno.png', Pescara: '/images/logo-pescara.png', Latina: '/images/logo-latina.png', Trieste: '/images/logo-trieste.png',
