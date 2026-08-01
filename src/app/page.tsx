@@ -1,5 +1,5 @@
-import ProprietaryHome from '@/components/ProprietaryHome'
+import CityHome from '@/components/CityHome'
 
 export default function Home() {
-  return <ProprietaryHome />
+  return <CityHome />
 }
