@@ -5,7 +5,7 @@ export const site = {
     "tel":  "+390851804196",
     "city":  "Pescara",
     "name":  "Carroattrezzi Pescara",
-    "address":  "Via Tiburtina Valeria, 318 - 65128 Pescara PE",
+    "address":  "Via Tirino, 154 - 65129 Pescara PE",
     "title":  "Carroattrezzi a Pescara 24H | Soccorso stradale",
     "phone":  "085 180 4196",
     "email":  "assistenza@pescaracarroattrezzi.it"
