@@ -1,5 +1,5 @@
-import CityHome from '@/components/CityHome'
+import PescaraSignatureHome from '@/components/PescaraSignatureHome'
 
 export default function Home() {
-  return <CityHome />
+  return <PescaraSignatureHome />
 }
