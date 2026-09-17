@@ -2,12 +2,12 @@ export const site = {
     "domain":  "pescaracarroattrezzi.it",
     "template":  "pocket",
     "description":  "Carroattrezzi a Pescara e soccorso stradale a Pescara: traino, recupero auto, assistenza moto e interventi rapidi in città e provincia.",
-    "tel":  "+390851804196",
+    "tel":  "+390871260172",
     "city":  "Pescara",
     "name":  "Carroattrezzi Pescara",
     "address":  "Via Tirino, 154 - 65129 Pescara PE",
     "title":  "Carroattrezzi a Pescara 24H | Soccorso stradale",
-    "phone":  "085 180 4196",
+    "phone":  "0871 260172",
     "email":  "assistenza@pescaracarroattrezzi.it"
 } as const
 
