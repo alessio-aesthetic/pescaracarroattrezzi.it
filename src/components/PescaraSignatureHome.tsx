@@ -68,13 +68,7 @@ export default function PescaraSignatureHome() {
       url: `https://${site.domain}`,
       telephone: site.tel,
       email: site.email,
-      address: {
-        '@type': 'PostalAddress',
-        streetAddress: site.address,
-        addressLocality: site.city,
-        addressRegion: 'PE',
-        addressCountry: 'IT',
-      },
+      
       areaServed: [site.city, ...zones.map((zone) => zone.name)],
       openingHours: 'Mo-Su 00:00-23:59',
     },
@@ -289,7 +283,7 @@ export default function PescaraSignatureHome() {
       <footer className={styles.footer}>
         <div className={styles.footerInner}>
           <div><div className={styles.footerBrand}><img src="/images/brand-pescara.png" alt="" /><span>Carroattrezzi <b>Pescara</b></span></div><p>Soccorso stradale, recupero e trasporto veicoli con una comunicazione chiara, quando serve davvero.</p></div>
-          <div className={styles.footerDetails}><p>{site.address}</p><a href={`mailto:${site.email}`}>{site.email}</a><a href={phoneHref()}>{site.phone}</a></div>
+          <div className={styles.footerDetails}><a href={`mailto:${site.email}`}>{site.email}</a><a href={phoneHref()}>{site.phone}</a></div>
           <p className={styles.footerTag}>Pescara<br />e provincia</p>
         </div>
       </footer>

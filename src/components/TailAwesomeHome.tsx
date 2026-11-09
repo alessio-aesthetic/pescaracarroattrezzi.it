@@ -134,11 +134,11 @@ function ContentFlow() {
 }
 
 function Footer() {
-  return <footer className="border-t border-slate-200 bg-white py-10"><Container className="flex flex-col justify-between gap-6 text-sm text-slate-500 sm:flex-row sm:items-end"><div><p className="font-black text-slate-950">{site.name}</p><p className="mt-2">{site.address}</p><p className="mt-1">{site.email}</p></div><div className="sm:text-right"><Link href={`tel:${site.tel}`} className="font-black" style={{ color: accent.main }}>{site.phone}</Link><p className="mt-2">Servizio attivo 24 ore su 24</p></div></Container></footer>
+  return <footer className="border-t border-slate-200 bg-white py-10"><Container className="flex flex-col justify-between gap-6 text-sm text-slate-500 sm:flex-row sm:items-end"><div><p className="font-black text-slate-950">{site.name}</p><p className="mt-1">{site.email}</p></div><div className="sm:text-right"><Link href={`tel:${site.tel}`} className="font-black" style={{ color: accent.main }}>{site.phone}</Link><p className="mt-2">Servizio attivo 24 ore su 24</p></div></Container></footer>
 }
 
 function JsonLd() {
-  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': ['LocalBusiness', 'AutomotiveBusiness'], name: site.name, url: `https://${site.domain}`, telephone: site.tel, email: site.email, address: { '@type': 'PostalAddress', streetAddress: site.address, addressLocality: site.city, addressCountry: 'IT' }, areaServed: [site.city, ...zones.map((zone) => zone.name)], openingHours: 'Mo-Su 00:00-23:59' }) }} />
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': ['LocalBusiness', 'AutomotiveBusiness'], name: site.name, url: `https://${site.domain}`, telephone: site.tel, email: site.email, areaServed: [site.city, ...zones.map((zone) => zone.name)], openingHours: 'Mo-Su 00:00-23:59' }) }} />
 }
 
 export default function TailAwesomeHome() {
