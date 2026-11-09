@@ -5,7 +5,6 @@ export const site = {
     "tel":  "+390871260172",
     "city":  "Pescara",
     "name":  "Carroattrezzi Pescara",
-    "address":  "Via Tirino, 154 - 65129 Pescara PE",
     "title":  "Carroattrezzi a Pescara 24H | Soccorso stradale",
     "phone":  "0871 260172",
     "email":  "assistenza@pescaracarroattrezzi.it"
