@@ -52,7 +52,8 @@ export default function RootLayout({
         lexend.variable,
       )}
     >
-      <body className="flex h-full flex-col">{children}</body>
+      <body className="flex h-full flex-col">{children}<script defer src="/privacy-notice.js" />
+      </body>
     </html>
   )
 }
